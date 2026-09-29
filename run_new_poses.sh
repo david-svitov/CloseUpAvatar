@@ -1,0 +1,1 @@
+python test.py --config ./config/actor06_closeup.yaml --model_dir ./logs/actorshq_avatars/Actor06 --out_dir ./logs/Actor06_AMASS --cam_path /mounted/home/dsvitov/Code/mmlphuman-textured/logs/viewer_cameras/kick_camera.json --pose_path /mounted/media/dsvitov/DATA/Datasets_avatars/AMASS/ACCAD/Male2MartialArtsKicks_c3d/G13-__cresent_right_stageii.npz --test --zero_translation
