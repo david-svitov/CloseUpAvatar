@@ -7,7 +7,7 @@
 
 ## Installation
 
-1. We provide a [Docker image](../docker) for easy and fast installation. To build and run the container, please use the following commands:
+1. We provide a [Docker image](./docker) for easy and fast installation. To build and run the container, please use the following commands:
    ```shell
    bash ./docker/build.sh
    bash ./docker/run.sh
