@@ -73,6 +73,8 @@ ActorsHQ dataset
 
 ## Training
 
+First update ```smpl_pkl_path``` path to SMPL-X model in the ```./config/*.yaml``` configs you intended to use.
+
 For training selected avatars, you can use the following script:
 ```shell
 train.py 
@@ -82,6 +84,7 @@ To train all avatars, please run:
 ```shell
 bash run_train.sh
 ```
+Note, that you have to update ```--data_dir``` in the .sh script with the path to your data.
 
 ## Test and Evaluation
 
